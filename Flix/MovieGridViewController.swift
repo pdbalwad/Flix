@@ -42,6 +42,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
         
     }
     
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return movies.count
     }
